@@ -1,0 +1,385 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ira Herman",
+      "email": "Enoch.White54@yahoo.com",
+      "isStaff": true
+    },
+    {
+      "id": 2,
+      "name": "Maria Ryan",
+      "email": "Adah_Gibson58@hotmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 3,
+      "name": "Kelli Labadie",
+      "email": "Marielle59@hotmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "name": "Loren Schaden",
+      "email": "Maximo.Osinski@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 5,
+      "name": "Marianne Bahringer",
+      "email": "Colt_Vandervort4@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 6,
+      "name": "Clyde Gleichner",
+      "email": "Waldo45@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 7,
+      "name": "Jessica Stoltenberg",
+      "email": "Dudley_Boyer87@yahoo.com",
+      "isStaff": false
+    },
+    {
+      "id": 8,
+      "name": "Jordan Jenkins",
+      "email": "Luigi68@hotmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 9,
+      "name": "Melinda DuBuque",
+      "email": "Jaquelin28@hotmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 10,
+      "name": "Clint Brown",
+      "email": "Murl_Quitzon49@gmail.com",
+      "isStaff": true
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "loyaltyNumber": 11855,
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "loyaltyNumber": 48125,
+      "userId": 3
+    },
+    {
+      "id": 3,
+      "loyaltyNumber": 82675,
+      "userId": 5
+    },
+    {
+      "id": 4,
+      "loyaltyNumber": 64016,
+      "userId": 7
+    },
+    {
+      "id": 5,
+      "loyaltyNumber": 80839,
+      "userId": 9
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "userId": 1,
+      "startDate": "Jun 29 2022",
+      "payRate": 7.25,
+      "storeId": 3
+    },
+    {
+      "id": 1,
+      "userId": 4,
+      "startDate": "Oct 12 2022",
+      "payRate": 7.25,
+      "storeId": 2
+    },
+    {
+      "id": 1,
+      "userId": 6,
+      "startDate": "Oct 12 2022",
+      "payRate": 7.25,
+      "storeId": 3
+    },
+    {
+      "id": 1,
+      "userId": 8,
+      "startDate": "Apr 14 2022",
+      "payRate": 7.25,
+      "storeId": 1
+    },
+    {
+      "id": 1,
+      "userId": 10,
+      "startDate": "Oct 23 2021",
+      "payRate": 7.25,
+      "storeId": 1
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "37458 Bartoletti Hill",
+      "sqFt": 35857
+    },
+    {
+      "id": 2,
+      "address": "594 Emile Pass",
+      "sqFt": 13282
+    },
+    {
+      "id": 3,
+      "address": "847 Corrine Harbor",
+      "sqFt": 59541
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Lollipop",
+      "productTypeId": 3,
+      "unitPrice": ".50"
+    },
+    {
+      "id": 2,
+      "name": "Riesen",
+      "productTypeId": 4,
+      "unitPrice": ".50"
+    },
+    {
+      "id": 3,
+      "name": "Skittles",
+      "productTypeId": 1,
+      "unitPrice": "1.99"
+    },
+    {
+      "id": 4,
+      "name": "Mike and Ikes",
+      "productTypeId": 1,
+      "unitPrice": ".99"
+    },
+    {
+      "id": 5,
+      "name": "Pop Rocks",
+      "productTypeId": 5,
+      "unitPrice": ".99"
+    },
+    {
+      "id": 6,
+      "name": "Baby Bottle Pop",
+      "productTypeId": 3,
+      "unitPrice": "2.99"
+    },
+    {
+      "id": 7,
+      "name": "Bubble Tape",
+      "productTypeId": 2,
+      "unitPrice": "1.99"
+    },
+    {
+      "id": 8,
+      "name": "Big Chew",
+      "productTypeId": 2,
+      "unitPrice": ".99"
+    },
+    {
+      "id": 9,
+      "name": "Zebra Stripe",
+      "productTypeId": 2,
+      "unitPrice": ".50"
+    },
+    {
+      "id": 10,
+      "name": "Tootsie Rolls",
+      "productTypeId": 4,
+      "unitPrice": ".10"
+    },
+    {
+      "name": "Everlasting Gobstoppers",
+      "productTypeId": 1,
+      "price": 0,
+      "unitPrice": "2.50",
+      "id": 11
+    },
+    {
+      "name": "Candy Cigarettes",
+      "productTypeId": 5,
+      "price": 0,
+      "unitPrice": ".99",
+      "id": 12
+    },
+    {
+      "name": "Kinder Surprise",
+      "productTypeId": 5,
+      "price": 0,
+      "unitPrice": "3.99",
+      "id": 13
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "Fruit candy"
+    },
+    {
+      "id": 2,
+      "type": "Bublbegum"
+    },
+    {
+      "id": 3,
+      "type": "Sucker"
+    },
+    {
+      "id": 4,
+      "type": "Chocolate"
+    },
+    {
+      "id": 5,
+      "type": "Cool Kids Only"
+    }
+  ],
+  "productLocations": [
+    {
+      "id": 1,
+      "locationId": 1,
+      "productId": 1
+    },
+    {
+      "id": 2,
+      "locationId": 1,
+      "productId": 2
+    },
+    {
+      "id": 3,
+      "locationId": 1,
+      "productId": 3
+    },
+    {
+      "id": 4,
+      "locationId": 1,
+      "productId": 4
+    },
+    {
+      "id": 5,
+      "locationId": 1,
+      "productId": 5
+    },
+    {
+      "id": 6,
+      "locationId": 1,
+      "productId": 6
+    },
+    {
+      "id": 7,
+      "locationId": 1,
+      "productId": 7
+    },
+    {
+      "id": 8,
+      "locationId": 1,
+      "productId": 8
+    },
+    {
+      "id": 9,
+      "locationId": 1,
+      "productId": 9
+    },
+    {
+      "id": 10,
+      "locationId": 1,
+      "productId": 10
+    },
+    {
+      "id": 11,
+      "locationId": 2,
+      "productId": 1
+    },
+    {
+      "id": 12,
+      "locationId": 2,
+      "productId": 2
+    },
+    {
+      "id": 13,
+      "locationId": 2,
+      "productId": 3
+    },
+    {
+      "id": 14,
+      "locationId": 2,
+      "productId": 4
+    },
+    {
+      "id": 15,
+      "locationId": 2,
+      "productId": 6
+    },
+    {
+      "id": 16,
+      "locationId": 2,
+      "productId": 7
+    },
+    {
+      "id": 17,
+      "locationId": 2,
+      "productId": 9
+    },
+    {
+      "id": 18,
+      "locationId": 2,
+      "productId": 10
+    },
+    {
+      "id": 19,
+      "locationId": 3,
+      "productId": 1
+    },
+    {
+      "id": 20,
+      "locationId": 3,
+      "productId": 2
+    },
+    {
+      "id": 21,
+      "locationId": 3,
+      "productId": 3
+    },
+    {
+      "id": 22,
+      "locationId": 3,
+      "productId": 4
+    },
+    {
+      "id": 23,
+      "locationId": 3,
+      "productId": 6
+    },
+    {
+      "id": 24,
+      "locationId": 3,
+      "productId": 9
+    },
+    {
+      "id": 25,
+      "locationId": 3,
+      "productId": 10
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customerId": 3,
+      "productLocationId": 8,
+      "quantity": 48
+    }
+  ]
+}
